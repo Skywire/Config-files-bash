@@ -14,3 +14,6 @@ alias duf='du -sk * .??* | sort -n | while read size fname; do for unit in k M G
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
+
+# Sets up env php storm config for remote xdebug
+PHP_IDE_CONFIG="serverName=Vagrant"; export PHP_IDE_CONFIG
