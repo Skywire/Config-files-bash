@@ -6,6 +6,7 @@ PS1="\[\e[01;31m\]\w \$(parse_git_branch): \[\e[00m\]"
 
 # custom listing shortcut (alias)
 alias ll='ls --almost-all --human-readable -l --color'
+alias lt='ls -lthr --color'
 
 # Disk usage human readable and sorted by size.
 # Source: http://www.earthinfo.org/linux-disk-usage-sorted-by-size-and-human-readable/
