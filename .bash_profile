@@ -16,9 +16,6 @@ if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
 
-# Sets up env php storm config for remote xdebug
-PHP_IDE_CONFIG="serverName=Vagrant"; export PHP_IDE_CONFIG
-
 # Set VI as default editor
 export VISUAL=vi
 export EDITOR="$VISUAL"
